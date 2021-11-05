@@ -1,0 +1,16 @@
+=================================================
+* CameraGrab
+* Take picture from camera on Windows
+*
+* Copyright (c) 2021 Viveris Technologies
+*
+* https://github.com/viveris/CameraGrab
+* Release notes
+=================================================
+
+Noteworthy changes in release v1.0.0 (2021-11-05)
+=================================================
+
+* Initial release.
+
+    Tested on HP ProBook 4530e integrated camera and Logitech C920 Pro.
