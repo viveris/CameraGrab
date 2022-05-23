@@ -35,13 +35,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v142</PlatformToolset>
+    <PlatformToolset>v143</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
@@ -59,13 +59,13 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>C:\Users\sebco\source\repos\CameraGrab\opencv\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\sebco\source\repos\CameraGrab\opencv\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(OPENCV_PATH)\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCV_PATH)\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>C:\Users\sebco\source\repos\CameraGrab\opencv\include;$(IncludePath)</IncludePath>
-    <LibraryPath>C:\Users\sebco\source\repos\CameraGrab\opencv\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(OPENCV_PATH)\opencv\build\include;$(IncludePath)</IncludePath>
+    <LibraryPath>$(OPENCV_PATH)\opencv\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
