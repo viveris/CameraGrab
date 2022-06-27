@@ -17,6 +17,8 @@ It's depends on OpenCV version 4.5.3 available at:
 
 https://sourceforge.net/projects/opencvlibrary/files/4.5.3/opencv-4.5.3-vc14_vc15.exe/download
 
+Set *OPENCV_PATH* as environment variable with install path.
+
 ### Clone and project init
 
 ```bash
